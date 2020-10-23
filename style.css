@@ -1,0 +1,220 @@
+#title {
+    text-align: center;
+    border: black;
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 70px;
+    padding-top: 30px;
+    border-radius: 100%;
+    margin: auto;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+
+body {
+    background-color: springgreen;
+}
+
+#bg {
+    background-image: url(Scenery.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+
+.text {
+    text-align: center;
+    color: darkturquoise;
+    border: dodgerblue solid;
+    background-color: white;
+ 
+    text-size-adjust: 100;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.perempuan {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 50px;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 10%;
+    }
+
+.lelaki {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding: 50px;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-radius: 10%;
+    }
+
+
+
+.pink {
+    color: white;
+    background-color: violet;
+
+}
+
+.blue {
+    color: white;
+    background-color: aquamarine;
+
+}
+
+.ff {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    font-size: 15pt;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    }
+
+.green {
+    color: white;
+    background-color: dodgerblue;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: moccasin;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.press {
+    text-align: center;
+    border: black;
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 70px;
+    padding-top: 30px;
+    border-radius: 100%;
+    margin: auto;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+#quotesLaki {
+    width: 80px;
+    height: 80px;
+    padding: 0%;
+    font-size: 15pt;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 5%;
+    background-color: springgreen;
+    color: aquamarine;
+}
+
+#quotesl {
+    background-color: aquamarine;
+    border: dotted dodgerblue;
+    margin: auto;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#quotesPerempuan {
+    width: 80px;
+    height: 80px;
+    padding: 0%;
+    font-size: 15pt;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 5%;
+    color: aquamarine;
+    background-color: springgreen
+}
+
+#quotesp {
+    background-color: violet;
+    border: dotted dodgerblue;
+    margin: auto;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#display {
+    border: ghostwhite;
+    margin: auto;
+    width: 700px;
+}
+
+#quotes {
+    background-color: springgreen;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+h5 {
+    position: fixed;
+    color: green;
+    border: dotted black;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+#funFact {
+    width: 80px;
+    height: 80px;
+    padding: 0%;
+    font-size: 15pt;
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 5%;
+    background-color: springgreen;
+    color:dodgerblue;
+}
+
+#funf {
+    background-color:dodgerblue;
+    border: dotted aquamarine;
+    margin: auto;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#fact {
+    text-align: center;
+}

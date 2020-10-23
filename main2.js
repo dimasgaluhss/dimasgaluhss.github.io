@@ -1,0 +1,10 @@
+let qperempuan = ['Kamu merasa takut bikin orang kecewa? Daripada pusing mikirin gitu, mending order boba aja di Gofood sekarang.', 'Kamu itu cantik, ada yang bilang Kamu jelek? Tenang, banyak yang ngatain dia jelek juga kok.', 'Sebelum nyoba dapetin pengakuan dari orang, coba pelajarin dulu yang namanya self love.', 'Di dunia ini, pasti ada setidaknya satu orang yang benci kamu. Daripada pusing mikirin perkataan mereka, mending fokus sama yang menghargai keberadaan kamu.', 'Ngga bisa ngendaliin finansial kamu? Gapapa, belum terlalu telat buat diperbaikin kebiasaannya kok. Coba mulai dari sekarang juga!!!', 'Udah pasti ada orang yang bakal lebih baik dari kamu dalam suatu hal. Kamu udah mencoba, dan itu udah cukup', 'Muka kamu lengkap, tubuh kamu sehat, jangan dirusak ya? Udah cakep banget soalnya.', 'You do what you want, just try not to give your future up.', 'Ngga cantik tanpa make up? Jodoh pasti bakal bisa ngelewatin hal itu kok.', 'Kalau kamu merasa jelek, jangan galau doang. Lakuin suatu usaha biar kamu bisa bilang kalo diri kamu itu perempuan paling cantik!!!', 'Setiap hari yang kamu lewatin, satu langkah tertempuh buat siap siap ketemu jodoh kamu. Jangan berhenti ya!!!', 'They say Disneyland is the happiest place on earth. Well apparently, no one has ever been standing next to you.', 'Somebody call the cops, because it’s got to be illegal to look that good!!!', 'Nothing lasts forever, try to find your nothing.', "Aku do'a in biar jodohnya ber dompet tebel biar nanti bisa puas beli apa yang kamu mau." ]
+
+let qpbutton = document.getElementById('quotesp')
+let displayedq = document.getElementById('quotes')
+
+
+qpbutton.addEventListener('click', function(){
+    let randomQuotesp = Math.floor(Math.random() * qperempuan.length)
+    displayedq.innerText = qperempuan[randomQuotesp]
+})
